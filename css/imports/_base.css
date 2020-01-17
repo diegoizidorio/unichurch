@@ -1,0 +1,195 @@
+/*Importação de fontes*/
+
+@font-face {
+    font-family: 'MonoTypeCorsiva';
+    src: url('./font/monotype-corsiva.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./font/Roboto-Light.ttf');
+}
+
+@font-face {
+    font-family: 'SoulOfYou';
+    src: url('./font/Soul\ Of\ You.ttf');
+}
+
+@font-face {
+    font-family: 'Romanica';
+    src: url('./font/Romanica.ttf');
+}
+
+
+/*Parte superior da menu*/
+
+.menuSuperior {
+    background: black;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 1rem;
+    height: 10rem;
+    font-size: 4.5rem;
+    font-family: 'MonoTypeCorsiva';
+}
+
+.nome p {
+    font-size: 3.5rem;
+    font-family: 'SoulOfYou';
+}
+
+.nome img {
+    float: left;
+    width: 12rem;
+    position: absolute;
+    margin: 0 0 0 -15rem;
+}
+
+
+/* Rede Socias*/
+
+.redeSocias {
+    float: right;
+    font-size: 2rem;
+    color: aliceblue;
+    margin-right: 1rem;
+    margin-top: -9rem;
+}
+
+.fa {
+    color: white;
+}
+
+.fa-facebook-square:hover {
+    color: blue;
+}
+
+.fa-youtube-play:hover {
+    color: red;
+}
+
+
+/*Menus*/
+
+.menuInferior {
+    font-size: 0.9rem;
+    width: 100%;
+    height: 2rem;
+    background: #4e4e4e;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.menuInferior-fixo {
+    position: fixed;
+    z-index: 10;
+    top: 0;
+}
+
+ul {
+    display: inline-block
+}
+
+li {
+    position: relative;
+    width: max-content;
+    height: 2rem;
+    float: left;
+    margin-right: 1rem;
+}
+
+li ul {
+    display: none;
+    width: 1rem;
+}
+
+li:hover ul,
+li.over ul {
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+li ul li {
+    background: black;
+    top: 0.9rem;
+    border-radius: 0;
+    width: 9.5rem;
+    height: 1.5rem;
+    display: flex;
+    height: 2rem;
+}
+
+
+/*Botões Menu*/
+
+li a {
+    text-decoration: none;
+    font-family: 'Roboto';
+    color: white;
+    font-size: 0.9rem;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+}
+
+li a:hover {
+    background: red;
+}
+
+li ul li a {
+    border-radius: 0;
+    width: 9.5rem;
+    height: 1.5rem;
+    height: 2rem;
+}
+
+li ul li a:hover {
+    background: white;
+    color: black;
+}
+
+
+/*Botão do Topo*/
+
+.btn_Topo {
+    width: 15rem;
+    height: 3rem;
+    background: rgba(0, 0, 0, 0.85);
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+    color: white;
+    font-size: 1.5rem;
+    position: fixed;
+    z-index: 10;
+    top: 90%;
+    left: 80%;
+    visibility: hidden;
+}
+
+
+/* Primeira Parte */
+
+h1 {
+    font-family: 'Romanica';
+    color: red;
+    font-size: 3rem;
+}
+
+.uniChurch {
+    background: url("../../img/img001.JPG") no-repeat;
+    background-size: 100%;
+    height: 30rem;
+    padding: 5rem 0 0 15rem;
+}
+
+.uniChurch p {
+    margin-top: 15rem;
+    text-align: justify;
+    width: 90%;
+    font-size: 2rem;
+}
