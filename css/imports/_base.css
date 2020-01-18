@@ -184,16 +184,19 @@ h1 {
 .uniChurch {
     background: url("../../img/img001.JPG") no-repeat;
     background-size: cover;
+    text-align: center;
     height: 40rem;
-    padding: 2rem 0 0 15rem;
+    padding: 1rem 0 0 0;
     color: white;
     border: none;
 }
 
 .uniChurch p {
     margin-top: 20rem;
+    margin-left: auto;
+    margin-right: auto;
     text-align: justify;
-    width: 90%;
+    width: 80%;
     font-size: 2rem;
 }
 

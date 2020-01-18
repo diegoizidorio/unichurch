@@ -15,7 +15,7 @@ $(document).ready(function() {
 
     _containerTopo.click(function(event) {
         event.preventDefault();
-        jQuery('html, body').animate({ scrollTop: 0 }, 250);
+        jQuery('html, body').animate({ scrollTop: 0 }, 600);
 
     });
 
