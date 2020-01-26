@@ -43,11 +43,11 @@ $(document).ready(function() {
         _containerCE.css({ display: "none" });
         _containerAM.css({ display: "none" });
 
-    }
+    };
 
     ocultar();
 
-    _containerRJ.css({ display: "table" });;
+    _containerRJ.css({ display: "table" });
 
     _containerbtn_RJ.click(function(event) {
 
@@ -55,7 +55,8 @@ $(document).ready(function() {
 
         ocultar();
 
-        _containerRJ.css({ display: "table" });;
+        _containerRJ.css({ display: "table" });
+
 
     });
 
