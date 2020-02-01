@@ -130,15 +130,15 @@
 
 .menuInferior-fixo {
     position: fixed;
-    z-index: 10;
+    z-index: 999;
     top: 0;
 }
 
-ul {
+.menuInferior ul {
     display: inline-block
 }
 
-li {
+.menuInferior li {
     position: relative;
     width: max-content;
     height: 2rem;
@@ -146,24 +146,23 @@ li {
     margin-right: 1rem;
 }
 
-li ul {
+.menuInferior li ul {
     display: none;
     width: 1rem;
 }
 
-li:hover ul,
-li.over ul {
+.menuInferior li:hover ul,
+.menuInferior li.over ul {
     display: block;
     align-items: center;
     justify-content: center;
 }
 
-li ul li {
+.menuInferior li ul li {
     background: black;
     top: 0.9rem;
     border-radius: 0;
     width: 9.5rem;
-    height: 1.5rem;
     display: flex;
     height: 2rem;
 }
@@ -171,7 +170,7 @@ li ul li {
 
 /*Botões Menu*/
 
-li a {
+.menuInferior li a {
     text-decoration: none;
     font-family: 'Roboto';
     color: white;
@@ -182,19 +181,17 @@ li a {
     font-weight: 100;
 }
 
-li a:hover {
+.menuInferior li a:hover {
     background: red;
     font-weight: 100;
 }
 
-li ul li a {
+.menuInferior li ul li a {
     border-radius: 0;
     width: 9.5rem;
-    height: 1.5rem;
-    height: 2rem;
 }
 
-li ul li a:hover {
+.menuInferior li ul li a:hover {
     background: white;
     color: black;
     font-weight: bolder;
@@ -204,22 +201,20 @@ li ul li a:hover {
 /*Botão do Topo*/
 
 .btn_Topo {
-    width: 3.5rem;
-    height: 3.5rem;
-    background: rgba(0, 0, 0, 0.85);
-    border-radius: 10rem;
-    -webkit-border-radius: 10rem;
-    -moz-border-radius: 10rem;
-    -ms-border-radius: 10rem;
-    -o-border-radius: 10rem;
-    color: white;
-    font-size: 2rem;
+    background: none;
+    width: 3.2rem;
+    height: 3.2rem;
+    font-size: 2.3rem;
     position: fixed;
-    z-index: 10;
+    z-index: 999;
     top: 90%;
     left: 90%;
     visibility: hidden;
     cursor: pointer;
+}
+
+.fa-arrow-up {
+    color: black;
 }
 
 
@@ -255,6 +250,10 @@ h1 {
 .uniChurchCultos {
     margin-top: 2rem;
     text-align: center;
+}
+
+.uniChurchCultos ul li {
+    display: inline;
 }
 
 h2 {
@@ -323,11 +322,8 @@ a {
 
 /*Projeto Cada Um Por Um*/
 
-.projetoCadaUmPorUm {
-    margin-top: 3rem;
-    background: url(../../img/img002.JPG);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+.projetos {
+    margin-top: 5rem;
     height: 50rem;
 }
 
@@ -335,5 +331,6 @@ a {
 /*Disque Oração*/
 
 .disqueOracao {
+    margin-top: 5rem;
     text-align: center;
 }
