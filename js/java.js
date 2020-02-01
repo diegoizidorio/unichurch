@@ -27,12 +27,14 @@ $(document).ready(function() {
     var _containerbtn_SP = $('[data-container="btn_saoPaulo"]');
     var _containerbtn_ES = $('[data-container="btn_espiritoSanto"]');
     var _containerbtn_CE = $('[data-container="btn_ceara"]');
+    var _containerbtn_PB = $('[data-container="btn_paraiba"]');
     var _containerbtn_AM = $('[data-container="btn_amapa"]');
 
     var _containerRJ = $('[data-container="rioDeJaneiro"]');
     var _containerSP = $('[data-container="saoPaulo"]');
     var _containerES = $('[data-container="espiritoSanto"]');
     var _containerCE = $('[data-container="ceara"]');
+    var _containerPB = $('[data-container="paraiba"]');
     var _containerAM = $('[data-container="amapa"]');
 
     function ocultar() {
@@ -41,6 +43,7 @@ $(document).ready(function() {
         _containerSP.css({ display: "none" });
         _containerES.css({ display: "none" });
         _containerCE.css({ display: "none" });
+        _containerPB.css({ display: "none" });
         _containerAM.css({ display: "none" });
 
     };
@@ -94,5 +97,14 @@ $(document).ready(function() {
         ocultar();
 
         _containerAM.css({ display: "table" });;
+    });
+
+    _containerbtn_PB.click(function(event) {
+
+        event.preventDefault();
+
+        ocultar();
+
+        _containerPB.css({ display: "table" });;
     });
 });
