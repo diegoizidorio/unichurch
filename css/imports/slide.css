@@ -42,8 +42,9 @@ ul {
 }
 
 .ei-slider-large li img {
+    padding-top: 3.5rem;
     width: 100%;
-    max-height: 52rem;
+    max-height: 48.5rem;
 }
 
 .ei-slider-thumbs {
@@ -102,11 +103,9 @@ ul {
     -ms-transition: all 0.1s ease;
     transition: all 0.1s ease;
     -webkit-box-reflect: below 0px -webkit-gradient( linear, left top, left bottom, from(transparent), color-stop(50%, transparent), to(rgba(255, 255, 255, 0.3)));
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 }
 
 .ei-slider-thumbs li:hover img {
     opacity: 1;
     bottom: 13px;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }

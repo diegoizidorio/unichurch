@@ -248,7 +248,7 @@ h1 {
 /* Localização da igreja mais perto*/
 
 .uniChurchCultos {
-    margin-top: 2rem;
+    margin-top: 2.5rem;
     text-align: center;
 }
 
@@ -323,7 +323,7 @@ a {
 /*Projeto Cada Um Por Um*/
 
 .projetos {
-    margin-top: 5rem;
+    margin-top: 2.5rem;
     height: 50rem;
 }
 
@@ -331,6 +331,6 @@ a {
 /*Disque Oração*/
 
 .disqueOracao {
-    margin-top: 5rem;
+    margin-top: 2.5rem;
     text-align: center;
 }
