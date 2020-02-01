@@ -43,7 +43,7 @@ ul {
 
 .ei-slider-large li img {
     width: 100%;
-    height: 49rem;
+    max-height: 52rem;
 }
 
 .ei-slider-thumbs {
