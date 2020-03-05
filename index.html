@@ -14,6 +14,7 @@
     <script type="text/javascript" src="js/jquery.eislideshow.js"></script>
     <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
     <script src="./js/java.js"></script>
+    <script src="https://kit.fontawesome.com/f963779ddc.js" crossorigin="anonymous"></script>
 </head>
 
 <body class="fadeIn">
@@ -30,10 +31,10 @@
             </div>
             <div class="redeSocias">
                 <div class="facebook">
-                    <a href="https://www.facebook.com/unidadedafechurch/" target="_black" class="fa fa-facebook-square" aria-hidden="true"></a>
+                    <a href="https://www.facebook.com/unidadedafechurch/" target="_black" class="fab fa-facebook-square"></a>
                 </div>
                 <div class="youtube">
-                    <a href="https://www.youtube.com/channel/UCDuKwDxfWf19hSFSCGXwURQ" target="_black" class="fa fa-youtube-play" aria-hidden="true"></a>
+                    <a href="https://www.youtube.com/channel/UCDuKwDxfWf19hSFSCGXwURQ" target="_black" class="fab fa-youtube" aria-hidden="true"></a>
                 </div>
             </div>
 
@@ -254,23 +255,40 @@
                 <!-- ei-slider-large -->
                 <ul class="ei-slider-thumbs">
                     <li class="ei-slider-element">Current</li>
-                    <li><a href="#">Slide 1</a><img src="./img/img002.jpg" alt="thumb06" /></li>
+                    <li><a href="#">Slide 1</a><img src="./img/img002.jpg" alt="thumb01" /></li>
                     <li><a href="#">Slide 2</a><img src="./img/img003.jpg" alt="thumb02" /></li>
                     <li><a href="#">Slide 3</a><img src="./img/img004.jpg" alt="thumb03" /></li>
                     <li><a href="#">Slide 4</a><img src="./img/img005.jpg" alt="thumb04" /></li>
                     <li><a href="#">Slide 5</a><img src="./img/img006.jpg" alt="thumb05" /></li>
-                    <li><a href="#">Slide 6</a><img src="./img/img007.jpg" alt="thumb02" /></li>
+                    <li><a href="#">Slide 6</a><img src="./img/img007.jpg" alt="thumb06" /></li>
                 </ul>
-                <!-- ei-slider-thumbs -->
             </div>
         </div>
 
         <div class="disqueOracao">
+
             <h2>Esta precisando de oração ?</h2>
             Está se sentindo sozinho, cansado de tantas brigas ou discursões ?
 
+            <div class="popup" id="popup">
+                <button onclick="fechar();" class="fechar fas fa-times"></button>
+                <h2>Enviar e-mail</h2><br> E-Mail: <input type="email" placeholder="Digite seu e-mail"> <br><br>
+                <p> Mensagem: <textarea placeholder="Digite seu pedido de oração."></textarea></p>
+                <p><br></p>
+                <button class="far fa-envelope"> Enviar</button> <button onclick="fechar();" class="fas fa-times"> Cancelar</button>
+            </div>
+            <p>
+                <a href="https://chat.whatsapp.com/GlO296HjxZR5yJWGJJ8KY0" target="_blank" class="estados fab fa-whatsapp"> WhatsApp</a>
+
+                <button onclick="abrir();" class="far fa-envelope"> E-Mail</button>
+
+            </p>
         </div>
 
+        <div class="sitioEfata">
+
+            <h2>Instâcia Efata</h2>
+            Seja um Coloborador desta obra!
     </main>
     <button class="btn_Topo" data-container="btnTopo"><i class="fa fa-arrow-up"></i></button>
 </body>

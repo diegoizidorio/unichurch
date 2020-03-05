@@ -103,7 +103,8 @@
     margin-top: -9rem;
 }
 
-.fa {
+.fa-facebook-square,
+.fa-youtube {
     color: white;
     cursor: pointer;
 }
@@ -112,7 +113,7 @@
     color: blue;
 }
 
-.fa-youtube-play:hover {
+.fa-youtube:hover {
     color: red;
 }
 
@@ -320,7 +321,7 @@ a {
 }
 
 
-/*Projeto Cada Um Por Um*/
+/*Projetos*/
 
 .projetos {
     margin-top: 2.5rem;
@@ -333,4 +334,91 @@ a {
 .disqueOracao {
     margin-top: 2.5rem;
     text-align: center;
+}
+
+.fechar {
+    float: right;
+    right: 0.2rem;
+}
+
+.fa-whatsapp,
+.fa-envelope,
+.fa-times {
+    font-size: 1.3rem;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-weight: bolder;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    margin-left: 1rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    -webkit-border-radius: 0.2rem;
+    -moz-border-radius: 0.2rem;
+    -ms-border-radius: 0.2rem;
+    -o-border-radius: 0.2rem;
+}
+
+.fa-whatsapp:hover {
+    background-color: #32CD32;
+}
+
+.fa-envelope:hover {
+    background-color: #1E90FF;
+}
+
+.fa-times:hover {
+    background: #B22222;
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 50rem;
+    height: 30rem;
+    padding: 1rem;
+    background: #4e4e4e;
+    display: none;
+    z-index: 999;
+    font-family: 'Romanica';
+    text-align: center;
+}
+
+input {
+    width: 20rem;
+    height: 1.5rem;
+    padding: 0.1rem 0.3rem 0.1rem 0.3rem;
+    border-radius: 0.1rem;
+    -webkit-border-radius: 0.1rem;
+    -moz-border-radius: 0.1rem;
+    -ms-border-radius: 0.1rem;
+    -o-border-radius: 0.1rem;
+    font-family: 'Romanica';
+}
+
+input:focus,
+textarea:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 .15rem rgb(0, 123, 255)
+}
+
+textarea {
+    vertical-align: text-top;
+    resize: none;
+    width: 30rem;
+    height: 15rem;
+    font-family: 'Romanica';
+    border-radius: 0.1rem;
+    -webkit-border-radius: 0.1rem;
+    -moz-border-radius: 0.1rem;
+    -ms-border-radius: 0.1rem;
+    -o-border-radius: 0.1rem;
+    padding: 0.3rem;
 }
