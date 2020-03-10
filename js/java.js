@@ -124,8 +124,14 @@ $(function() {
 
 function abrir() {
     document.getElementById('popup').style.display = 'block';
+    $('html, body').css({
+        overflow: 'hidden'
+    });
 }
 
 function fechar() {
     document.getElementById('popup').style.display = 'none';
+    $('html, body').css({
+        overflow: 'auto'
+    });
 }

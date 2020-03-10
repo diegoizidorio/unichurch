@@ -39,7 +39,7 @@
             </div>
 
             <div class="menuInferior" data-container="menuInferior">
-
+                <img src="./img/aguia.png" class="aguia">
                 <ul>
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="#">NOSSO LIDER</a>
@@ -86,6 +86,7 @@
                     </li>
                     <li><a href="#">GALERIA</a></li>
                 </ul>
+                <img src="./img/lion.jpg" class="leao">
             </div>
         </div>
 
@@ -267,30 +268,39 @@
 
         <div class="disqueOracao">
 
-            <h2>Esta precisando de oração ?</h2>
-            Está se sentindo sozinho, cansado de tantas brigas ou discursões ?
+            <h1>Está precisando de oração ?</h1>
+            <br>
+            <p>Olá! Você é uma alegria para nós da Unidade da Fé Church.</p>
+            Através do nosso WhatsApp, Facebook, e-mail e outras redes sociais você pode interagir conosco.
+            <br>Entre em contato conosco e nos conheça nossas atividades, sonhos, alvos, projetos e de que forma podemos ajudar você.
+            <br>Deus te abençoe!
+
 
             <div class="popup" id="popup">
-                <button onclick="fechar();" class="fechar fas fa-times"></button>
-                <h2>Enviar e-mail</h2><br> E-Mail: <input type="email" placeholder="Digite seu e-mail"> <br><br>
-                <p> Mensagem: <textarea placeholder="Digite seu pedido de oração."></textarea></p>
-                <p><br></p>
-                <button class="far fa-envelope"> Enviar</button> <button onclick="fechar();" class="fas fa-times"> Cancelar</button>
+                <button onclick="fechar();" class="far fa-times-circle"></button>
+                <h2>Enviar e-mail</h2><br>
+                <form action="d.izidorio14@gmail.com" method="post">
+                    Nome: <input type="text " name="nome" placeholder="Digite seu nome ">
+                    <br><br> E-Mail: <input type="email" name="email" placeholder="Digite seu e-mail ">
+                    <br><br> Mensagem: <textarea placeholder="Digite seu pedido de oração. " name="mensagem"></textarea>
+                    <br><br>
+                    <button type="submit " class="far fa-envelope "> Enviar</button> <button type="reset" onclick="fechar(); " class="far fa-times"> Cancelar</button>
+                </form>
             </div>
             <p>
-                <a href="https://chat.whatsapp.com/GlO296HjxZR5yJWGJJ8KY0" target="_blank" class="estados fab fa-whatsapp"> WhatsApp</a>
+                <a href="https://api.whatsapp.com/send?phone=5521996792602&text=Olá, gostaria de fazer um pedidos de oração." target="_blank " class="estados fab fa-whatsapp "> WhatsApp</a>
 
-                <button onclick="abrir();" class="far fa-envelope"> E-Mail</button>
+                <button onclick="abrir(); " class="far fa-envelope "> E-Mail</button>
 
             </p>
         </div>
 
-        <div class="sitioEfata">
+        <div class="sitioEfata ">
 
             <h2>Instâcia Efata</h2>
             Seja um Coloborador desta obra!
     </main>
-    <button class="btn_Topo" data-container="btnTopo"><i class="fa fa-arrow-up"></i></button>
+    <button class="btn_Topo " data-container="btnTopo"><i class="fa fa-arrow-up "></i></button>
 </body>
 
 

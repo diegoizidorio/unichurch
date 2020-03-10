@@ -129,6 +129,20 @@
     text-align: center;
 }
 
+.aguia {
+    height: 3rem;
+    margin-left: -10rem;
+    margin-top: -1rem;
+    position: absolute;
+}
+
+.leao {
+    height: 3rem;
+    margin-left: 3.5rem;
+    margin-top: -1rem;
+    position: absolute;
+}
+
 .menuInferior-fixo {
     position: fixed;
     z-index: 999;
@@ -237,6 +251,7 @@ h1 {
 }
 
 .uniChurch p {
+    font-family: 'Romanica';
     margin-top: 30rem;
     margin-left: auto;
     margin-right: auto;
@@ -332,17 +347,17 @@ a {
 /*Disque Oração*/
 
 .disqueOracao {
-    margin-top: 2.5rem;
+    margin-top: 1rem;
+    padding-top: 2.5rem;
     text-align: center;
-}
-
-.fechar {
-    float: right;
-    right: 0.2rem;
+    height: 20rem;
+    font-family: 'Romanica';
+    font-size: 1.5rem;
 }
 
 .fa-whatsapp,
 .fa-envelope,
+.fa-times-circle,
 .fa-times {
     font-size: 1.3rem;
     text-decoration: none;
@@ -361,16 +376,29 @@ a {
     -o-border-radius: 0.2rem;
 }
 
+.fa-times-circle {
+    float: right;
+    right: 0.2rem;
+    font-size: 1.7rem;
+}
+
 .fa-whatsapp:hover {
     background-color: #32CD32;
+    color: white;
 }
 
 .fa-envelope:hover {
     background-color: #1E90FF;
+    color: white;
 }
 
 .fa-times:hover {
     background: #B22222;
+    color: white;
+}
+
+.fa-times-circle:hover {
+    color: white;
 }
 
 .popup {
@@ -381,13 +409,15 @@ a {
     left: 0;
     margin: auto;
     width: 50rem;
-    height: 30rem;
+    height: 32rem;
     padding: 1rem;
     background: #4e4e4e;
     display: none;
     z-index: 999;
     font-family: 'Romanica';
     text-align: center;
+    font-size: 1.2rem;
+    color: white;
 }
 
 input {
