@@ -109,6 +109,10 @@
     cursor: pointer;
 }
 
+.fa-facebook-square {
+    margin-left: 0.2rem;
+}
+
 .fa-facebook-square:hover {
     color: blue;
 }
@@ -130,9 +134,9 @@
 }
 
 .aguia {
-    height: 3rem;
+    height: 2rem;
     margin-left: -10rem;
-    margin-top: -1rem;
+    margin-top: -0.5rem;
     position: absolute;
 }
 
@@ -228,8 +232,12 @@
     cursor: pointer;
 }
 
+.fa-arrow-up:hover {
+    color: #4e4e4e;
+}
+
 .fa-arrow-up {
-    color: black;
+    color: white;
 }
 
 
@@ -241,7 +249,7 @@ h1 {
 }
 
 .uniChurch {
-    background: url("../../img/img001.JPG") no-repeat;
+    background: url(../../img/img001.jpg) no-repeat;
     background-size: 100% 100%;
     text-align: center;
     height: 50rem;
@@ -353,6 +361,7 @@ a {
     height: 20rem;
     font-family: 'Romanica';
     font-size: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .fa-whatsapp,
@@ -451,4 +460,201 @@ textarea {
     -ms-border-radius: 0.1rem;
     -o-border-radius: 0.1rem;
     padding: 0.3rem;
+}
+
+
+/* Quem Somos - Historico*/
+
+.historico,
+.emQuemCremos,
+.missaoVisao,
+.emu,
+.convecaoGeral {
+    width: 70rem;
+    text-align: justify;
+    font-size: 1.3rem;
+    margin: auto;
+    font-family: 'Romanica';
+}
+
+main h1 {
+    margin: auto;
+    width: 70rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.historico h2,
+.emQuemCremos h2,
+.missaoVisao h2,
+.convecaoGeral h2 {
+    font-size: 2rem;
+}
+
+.emu h2 {
+    font-size: 1.5rem;
+}
+
+.corpo {
+    background: url(./../../img/background.jpg) no-repeat;
+    background-size: cover;
+    margin-top: -2rem;
+    background-attachment: fixed;
+    color: #FFFFFF;
+}
+
+
+/*Diretoria*/
+
+.team {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.team .team_member {
+    background: #4e4e4e;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: #8e8b8b;
+    position: relative;
+    margin-left: 5rem;
+}
+
+.team .team_member h3 {
+    color: #fff;
+    font-size: 2rem;
+    margin-top: 50px;
+    font-family: 'Romanica';
+}
+
+.team .team_member p.role {
+    color: #ccc;
+    margin: 12px 0;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+
+.team .team_member .team_img {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #fff;
+}
+
+.team .team_member .team_img img {
+    width: 100px;
+    height: 100px;
+    padding: 0 5px 5px 0;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+
+/* Barra da diretoria*/
+
+.team-bar .first-one-arrow {
+    float: left;
+    margin-left: 2rem;
+    margin-right: 30px;
+    width: 17%;
+}
+
+.team-bar .first-arrow {
+    float: left;
+    margin-left: 5px;
+    margin-right: 35px;
+    width: 17%;
+}
+
+.team-bar .second-arrow {
+    float: left;
+    margin-left: 5px;
+    width: 17%;
+}
+
+.team-bar .third-arrow {
+    float: left;
+    margin-left: 40px;
+    margin-right: 12px;
+    width: 17%;
+}
+
+.team-bar .fourth-arrow {
+    float: left;
+    margin-left: 25px;
+    width: 17%;
+}
+
+.team-bar .first-one-arrow hr,
+.team-bar .fourth-arrow hr {
+    border-bottom: 1px solid #2D7DA4;
+    border-top: 1px solid #2D7DA4;
+}
+
+.team-bar .first-arrow hr {
+    border-bottom: 1px solid #6aa42f;
+    border-top: 1px solid #6aa42f;
+}
+
+.team-bar .second-arrow hr {
+    border-bottom: 1px solid #FFBD20;
+    border-top: 1px solid #FFBD20;
+}
+
+.team-bar .third-arrow hr {
+    border-bottom: 1px solid #db3615;
+    border-top: 1px solid #db3615;
+}
+
+.team-bar {
+    position: relative;
+    margin-bottom: 10rem;
+    margin-top: 1rem;
+}
+
+.team-bar i {
+    border-radius: 50%;
+    color: #FFFFFF;
+    display: block;
+    height: 24px;
+    line-height: 24px;
+    margin-top: -32px;
+    overflow: hidden;
+    padding: 0;
+    text-align: center;
+    width: 24px;
+    position: absolute;
+}
+
+.team-bar .first-arrow .fa-angle-up {
+    background: #2D7DA4;
+    margin-left: -33px
+}
+
+.team-bar .second-arrow .fa-angle-down {
+    background: #6AA42F;
+    margin-left: -33px;
+}
+
+.team-bar .third-arrow .fa-angle-up {
+    background: #FFBD20;
+    margin-left: -32px;
+}
+
+.team-bar .fourth-arrow .fa-angle-down {
+    background: #db3615;
+    margin-left: -32px;
 }
